@@ -33,8 +33,8 @@ instead of the ``exports_sources`` fields.
 - ``no_copy_source = True`` will disable the copy of the source folder to the build directory as there is
   no need to do so because source code is not modified at all by the ``configure()`` or ``build()`` methods.
 - Note that this recipe has no other dependencies, settings or options. If it had any of those, it would be very
-  convenient to add the ``package_id()`` method, to ensure that only one package with always the same ID is
-  create irrespective of the configurations and dependencies:
+  convenient to add the ``package_id()`` method, to ensure that only one package with the same ID is
+  created, irrespective of the configurations and dependencies:
 
 .. code-block:: python
 
